@@ -69,7 +69,7 @@ const ProductDetails = () => {
                             </div>
 
                             <div className="product-detail-desc">
-                                <h1>{product.name}</h1>
+                                <h1>{product?.name}</h1>
                                 <div className="reviews">
                                     <div>
                                         <AiFillStar />

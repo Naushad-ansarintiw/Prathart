@@ -77,7 +77,7 @@ const Cart = () => {
               <h3>${totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <Link href={`./PaymentDone`}>              
+              <Link href={`http://localhost:3000/product/PaymentDone`}>              
               <button type="button" className="btn">
                 CheckOut
               </button>
