@@ -83,8 +83,8 @@ const ProductDetails = () => {
                                     </p>
                                 </div>
                                 <h4>Details: </h4>
-                                <p>{product.details}</p>
-                                <p className="price">{product.price}</p>
+                                <p>{product?.details}</p>
+                                <p className="price">{product?.price}</p>
                                 <div className="quantity">
                                     <h3>Quantity:</h3>
                                     <p className="quantity-desc">
